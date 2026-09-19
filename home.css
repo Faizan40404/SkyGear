@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2';
+    overflow-x: hidden;
+}
+
+main{
+    background-image: url(Pics/background.jpg);
+    background-attachment: fixed ;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+h1,h2{
+    color: white;
+}
+.SF-23i {
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.first {
+    width: 100vw;
+    height: 100vh;
+}
+
+.BL {
+    position: absolute;
+    color: red;
+    top: 85vh;
+    left: 6.51vw;
+}
+
+.Bl {
+    position: absolute;
+    color: red;
+    top: 89vh;
+    left: 6.51vw;
+    font-size: 3.29vh;
+}
+
+.B1 {
+    position: absolute;
+    background-color: white;
+    font-size: 2.19vh;
+    height: 4.58vh;
+    width: 7.81vw;
+    padding: 0.68vh;
+    top: 94vh;
+    left: 6.51vw;
+    color: red;
+    transition: 0.15s;
+}
+
+.B1:hover {
+    height: 4.89vh;
+    width: 8.46vw;
+    cursor: pointer;
+}
+
+.B1:active {
+    color: white;
+    background-color: red;
+    border: red;
+    cursor: progress;
+}
+
+.b1 {
+    position: absolute;
+    background-color: red;
+    font-size: 2.19vh;
+    height: 4.58vh;
+    width: 7.81vw;
+    padding: 0.68vh;
+    top: 94vh;
+    left: 15.63vw;
+    color: white;
+    transition: 0.15s;
+}
+
+.b1:hover {
+    height: 4.89vh;
+    width: 8.46vw;
+    cursor: pointer;
+}
+
+.b1:active {
+    color: red;
+    background-color: white;
+    cursor: progress;
+}
+
+.SF-23d {
+    background: linear-gradient(To right, rgb(0, 0, 0),  rgb(92, 92, 92),rgb(145,145, 145), rgb(92, 92, 92), rgb(0, 0, 0));
+    height: 16.44vh;
+    margin-top: -0.55vh;
+    color: white;
+}
+
+.SF-d {
+    margin-top: 2.74vh;
+    margin-left: 8.46vw;
+    display: inline-block;
+    font-size: 1.92vh;
+    text-align: center;
+}
+
+span.siz {
+    font-size: 3.29vh;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1.37vh;
+    margin-bottom: 1.37vh;
+}
+
+.sub {
+    margin-left: 9.77vw;
+    margin-right: 9.77vw;
+}
+
+.sub2 {
+    background-color: #f0f2f6;
+    border-radius: 1.1vh;
+    margin-bottom: 2vh;
+}
+
+.img {
+    display: inline-block;
+    padding: 0.68vh;
+    background-color: white;
+}
+
+.car {
+    width: 22.4vw;
+    height: 36.4vh;
+    border-radius: 1.1vh;
+}
+
+.data1 {
+    display: inline-block;
+    height: 36.4vh;
+    width: 30.34vw;
+}
+
+.data2 {
+    display: inline-block;
+    height: 36.4vh;
+}
+
+.but {
+    text-align: center;
+    color: white;
+    font-size: 2.19vh;
+    height: 4.11vh;
+    background: linear-gradient(To right, rgb(0, 0, 0),  rgb(92, 92, 92),rgb(145,145, 145), rgb(92, 92, 92), rgb(0, 0, 0));
+    width: 19.53vw;
+    border: none;
+    transition: 0.3s;
+}
+
+.but:hover {
+    cursor: pointer;
+opacity: 0.8;
+}
+
+.but:active {
+    cursor: progress;
+    opacity: 0.5;
+}

@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2';
+    overflow-x: hidden;
+}
+
+main {
+    background-image: url(Pics/background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main,
+#main,
+#main1 {
+    background-color: white;
+    padding-left: 3.81vw;
+    padding-right: 4vw;
+    box-shadow: 0.65vw 0.98vh 0.98vh 0.33vw rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+}
+.main:hover,
+#main:hover,
+#main1:hover{
+    opacity: 1;
+} 
+.main {
+    margin: 15vh 18.23vw 0vh 18.23vw;
+    padding-top: 2vh;
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+}
+
+#main {
+    margin: 0vh 18.23vw 0vh 18.23vw;
+}
+
+#main1 {
+    margin: 0vh 18.23vw 2.73vh 18.23vw;
+    padding-bottom: 2vh;
+    border-bottom-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+}
+
+p {
+    line-height: 3.42vh;
+}
+
+a {
+    color: black;
+}

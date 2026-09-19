@@ -1,0 +1,71 @@
+footer {
+    margin-top: 0;
+    background: linear-gradient(To right, rgb(0, 0, 0),  rgb(92, 92, 92),rgb(145,145, 145), rgb(92, 92, 92), rgb(0, 0, 0));
+    height: 89.6vh;
+    color: white;
+}
+
+.L, .CL, .CR, .R {
+    display: inline-block;
+    margin-top: 2.74vh;
+}
+
+.L {
+    margin-left: 11.8vw;
+}
+
+.CL {
+    margin-left: 10.13vw;
+    margin-right: 10.13vw;
+}
+
+.R {
+    margin-left: 10.13vw;
+}
+
+.M {
+    color: white;
+    text-decoration: none;
+}
+
+#W {
+    font-size: 2.19vh;
+    transition: 0.2s;
+}
+
+#W:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.news {
+    line-height: 3.15vh;
+}
+
+#e {
+    height: 5.48vh;
+    border: 0.27vh solid white;
+    width: 15.63vw;
+    padding: 0.68vh;
+    outline: none;
+    background-color: inherit;
+    color: whitesmoke;
+}
+
+.res{
+    width: 2.61vw;
+}
+
+.B {
+    margin-top: 16.44vh;
+}
+
+.mres {
+    width: 9.77vw;
+    margin-left: 42.34vw;
+}
+
+.bb {
+    margin-left: 43.62vw;
+    margin-top: 0;
+}

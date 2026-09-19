@@ -1,0 +1,58 @@
+nav {
+    height: 13.7vh;
+    width: 100vw;
+    border-bottom-left-radius: 0.55vh;
+    border-bottom-right-radius: 0.55vh;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    transition: 0.15s;
+    background-color: rgba(0,0, 0, 0.02);
+}
+nav:hover {
+    background: linear-gradient(To right, rgb(0, 0, 0),  rgb(92, 92, 92),rgb(145,145, 145), rgb(92, 92, 92), rgb(0, 0, 0));
+    opacity: 1;
+}
+.logo {
+    width: 9.12vw;
+    height: 9.59vh;
+    vertical-align: middle;
+    margin-top: 3.42vh;
+    margin-left: 1.63vw;
+}
+
+sup {
+    font-size: 2.74vh;
+}
+.search {
+    display: inline;
+}
+#Search {
+    height: 1.64vh;
+    padding: 2.05vh;
+    width: 19.53vw;
+    margin-left: 11.07vw;
+    margin-right: 9.12vw;
+    border-radius: 1.1vh;
+    border: 0.27vh solid #858B9C;
+    outline: none;
+}
+.navLink {
+    text-decoration: none;
+    color: white;
+    font-size: 2.74vh;
+    padding: 4.11vh 1.3vw 4.11vh;
+    transition: 0.15s;
+}
+.navLink:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0.27vh;
+    border: 0.14vh solid white;
+}
+.navLink-A {
+    text-decoration-line:underline;
+    color: palegreen;
+    font-size: 2.74vh;
+    padding: 4.11vh 1.3vw 4.11vh;
+    transition: 0.15s;
+}
